@@ -1,0 +1,17 @@
+nav {
+    background-color: #002060;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+
+}
+footer {
+    background-color: #002060;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
