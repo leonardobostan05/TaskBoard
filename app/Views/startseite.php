@@ -19,11 +19,11 @@
     <div class="container">
         <!-- Logo in Navbar Brand-->
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url('images/logo.svg') ?>" height="40">
+            <img src="<?= base_url('images/logo.svg') ?>" height="40" alt="Webentwicklung-Logo">
         </a>
 
         <!-- Button für das Burger-Menü (Aufklappbares Menü) welches auf die ID navbarNav gelinkt ist -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menü öffnen">
             <span class="navbar-toggler-icon"></span>
         </button>
 
