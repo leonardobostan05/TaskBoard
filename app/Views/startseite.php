@@ -11,15 +11,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('style.css') ?>">
 </head>
+
 <body class="d-flex flex-column min-vh-100">
-<nav class="navbar">
-    <div class="d-flex gap-3">
-        <img src="<?= base_url('images/logo.svg') ?>" height="40">
-        <a href="#">Tasks</a>
-    <a href="#">Boards</a>
-    <a href="#">Spalten</a>
+
+<!-- Die Navbar -->
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+        <!-- Logo in Navbar Brand-->
+        <a class="navbar-brand" href="#">
+            <img src="<?= base_url('images/logo.svg') ?>" height="40">
+        </a>
+
+        <!-- Button für das Burger-Menü (Aufklappbares Menü) welches auf die ID navbarNav gelinkt ist -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar-Links mit einer Einklappbaren Leiste auf Handys und Verlinkungen -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Boards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Spalten</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
+
 <div class="container mt-3">
     <div class="card">
         <div class="card-header">
