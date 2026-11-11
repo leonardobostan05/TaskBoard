@@ -1,6 +1,6 @@
 nav {
-    background-color: #002060;
-    padding: 15px;
+    background-color: #0967e3;
+    padding: 25px;
 }
 
 nav a {
@@ -8,9 +8,9 @@ nav a {
 }
 
 footer {
-    background-color: #002060;
+    background-color: #0967e3;
     color: white;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     margin-top: auto;
