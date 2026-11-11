@@ -77,7 +77,7 @@
 
 
                 <button type="submit" class="btn btn-success">Speichern</button>
-                <a href="<?= site_url('spalten') ?>" class="btn btn-danger">Abbrechen</a>
+                <a href="<?= site_url('spalten') ?>" class="btn btn-secondary">Abbrechen</a>
 
             </form>
 
