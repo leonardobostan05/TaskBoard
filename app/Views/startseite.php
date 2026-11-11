@@ -34,10 +34,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Tasks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Boards</a>
+                    <a class="nav-link" href="<?= site_url('boards') ?>">Boards</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Spalten</a>
+                    <a class="nav-link" href="<?= site_url('spalten') ?>">Spalten</a>
                 </li>
             </ul>
         </div>
