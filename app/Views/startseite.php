@@ -19,7 +19,7 @@
     <div class="container">
         <!-- Logo in Navbar Brand-->
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url('images/logo.svg') ?>" height="40" alt="Webentwicklung-Logo">
+            <img src="<?= base_url('images/logo.svg') ?>" height="55" alt="Webentwicklung-Logo">
         </a>
 
         <!-- Button für das Burger-Menü (Aufklappbares Menü) welches auf die ID navbarNav gelinkt ist -->
@@ -34,7 +34,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Tasks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= site_url('boards') ?>">Boards</a>
+                    <a class="nav-link" href="#">Boards</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= site_url('spalten') ?>">Spalten</a>

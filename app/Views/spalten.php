@@ -15,7 +15,7 @@
     <div class="container">
         <!-- Logo in Navbar Brand-->
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url('images/logo.svg') ?>" height="40" alt="Webentwicklung-Logo">
+            <img src="<?= base_url('images/logo.svg') ?>" height="55" alt="Webentwicklung-Logo">
         </a>
 
         <!-- Button für das Burger-Menü (Aufklappbares Menü) welches auf die ID navbarNav gelinkt ist -->
