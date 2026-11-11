@@ -64,7 +64,7 @@
 
                     <tr>
                         <td>1</td>
-                        <td>Allgemeine Tasks</td>
+                        <td>Allgemeine Todos</td>
                         <td>100</td>
                         <td>Zu bearbeiten</td>
                         <td>Noch offene Aufgaben</td>
@@ -76,7 +76,7 @@
 
                     <tr>
                         <td>2</td>
-                        <td>Allgemeine Tasks</td>
+                        <td>Allgemeine Todos</td>
                         <td>200</td>
                         <td>In Bearbeitung</td>
                         <td>Aufgaben in Bearbeitung</td>
